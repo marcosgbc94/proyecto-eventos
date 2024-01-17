@@ -2,7 +2,7 @@ import React from 'react'
 
 const FormularioRegistro = () => {
   return (
-    <form>
+    <form className='pt-4'>
         <h1 className='text-2xl text-left font-black px-2 mb-6 mt-2'>Formulario de Registro</h1>
         <div className='w-full text-left px-2 mb-3'>
             <label htmlFor="nameUser" className='block w-full font-bold mb-1'>¿Cúal es tu nombre?</label>

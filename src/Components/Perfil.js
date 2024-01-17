@@ -1,11 +1,15 @@
 import React from 'react'
 import FormularioRegistro from './FormularioRegistro'
+import EventoBar from './EventoBar'
 
 const Perfil = () => {
   return (
-    <div className='container mx-auto'>
-        <FormularioRegistro />
-    </div>
+    <>
+      <EventoBar title="Registro" backButton="true" />
+      <div className='container mx-auto mt-12'>
+          <FormularioRegistro />
+      </div>
+    </>
   )
 }
 
